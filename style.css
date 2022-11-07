@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin:1rem;
+}
+
+
+#textArea {
+    width:80%;
+    height: 10vh;
+    padding: 1rem;
+    display:block;
+    margin-bottom: 1rem;
+}
+
+#btn {
+    display: block;
+    padding: 0.3rem;
+    
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    padding:1rem;
+    margin-top:1rem;
+    
+}
