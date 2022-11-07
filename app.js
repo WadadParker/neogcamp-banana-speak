@@ -10,6 +10,11 @@ var url = "https://api.funtranslations.com/translate/minion.json";
 function callApi(text) {
     return url + "?" + "text=" + text
 }
+function errorHandler(error)
+{
+    console.log("Error occured", error);
+    alert("Sorry, an error occured please try again later");
+}
 
 
 function clickEventHandler() {
@@ -21,7 +26,8 @@ function clickEventHandler() {
 
             outputText.innerText = res2.contents.translated;
             console.log('Click is gettining listened');
-        })
+            })
+        .catch(errorHandler)
 }
 
 button.addEventListener("click", clickEventHandler);
