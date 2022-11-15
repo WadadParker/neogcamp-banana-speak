@@ -3,10 +3,6 @@ var textArea = document.querySelector("#textArea");
 var outputText = document.querySelector("#output");
 var url = "https://api.funtranslations.com/translate/minion.json";
 
-// function clickEventHandler(text) {
-// var text= textArea.value;
-// outputText.innerText= text;
-// }
 function callApi(text) {
     return url + "?" + "text=" + text
 }
