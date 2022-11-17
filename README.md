@@ -24,7 +24,7 @@
 
 ## Screenshots
 
-![Funny Translation](https://raw.githubusercontent.com/WadadParker/neogcamp-banana-speak/main/images/minion-speak.png)
+![Funny Translation](https://raw.githubusercontent.com/WadadParker/neogcamp-banana-speak/main/images/minion-speak.PNG)
 
 ## Connect with me
 
